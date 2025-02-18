@@ -1,0 +1,35 @@
+export const itemsMock = {
+  key1: {
+    children: [],
+    parents: [],
+    type: 1,
+    id: '1',
+    meta: {
+      chartId: 1,
+      defaultText: 'abc',
+      height: 50,
+      placeholder: 'chart',
+      sliceName: `salary'sChartSlice`,
+      sliceNameOverride: 'salary slice',
+      text: 'abc',
+      uuid: '1',
+      width: 50,
+    },
+  },
+  key2: {
+    children: [],
+    parents: [],
+    type: 2,
+    id: '2',
+    meta: {
+      chartId: 2,
+      defaultText: 'abc',
+      height: 100,
+      placeholder: 'chart',
+      sliceName: `productsSlice`,
+      text: 'abc',
+      uuid: '1',
+      width: 100,
+    },
+  },
+};
